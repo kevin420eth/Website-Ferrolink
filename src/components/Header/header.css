@@ -1,0 +1,39 @@
+.header__container {
+  background-color: rgb(41, 41, 41);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10rem;
+}
+
+.header__logo__container {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo__name {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header__logo__container span {
+  font-size: 1rem;
+}
+
+.logo__img {
+  height: 60px;
+}
+
+.navbar__container {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar__link {
+  color: rgb(255, 255, 255);
+}

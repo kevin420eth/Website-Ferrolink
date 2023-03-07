@@ -6,14 +6,11 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: rgb(255, 255, 255);
+  --title-color-dark: rgb(255, 255, 255);
+  --text-color: rgb(255, 255, 255);
+  --body-color: rgb(16, 16, 16);
+  --container-color: #ffffff;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -69,13 +66,13 @@ textarea {
 
 body {
   background-color: var(--body-color);
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 h1,
 h2,
 h3 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: var(--font-semi-bold);
 }
 
@@ -85,7 +82,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 button {
