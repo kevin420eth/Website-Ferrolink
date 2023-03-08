@@ -8,8 +8,8 @@ const HomeTypewriter = () => {
                 onInit={(typewriter) => {
                     typewriter
                         .changeDelay(50)
-                        .typeString("<span class='highlightText'>High Quality</span><br/>Hand Tools<br/>since 1941")
-                        .pauseFor(3500)
+                        .typeString("<span class='highlightText'>High Quality</span><br/>Hand Tools<br/>Industrial Hardware</br>since 1941")
+                        .pauseFor(2500)
                         .deleteAll(1)
                         .typeString("Extremely<br/><span class='highlightText'>Strong</span><br/><span class='highlightText'>Precise</span><br/>and<br/><span class='highlightText'>Dependable</span>")
                         .pauseFor(2500)
