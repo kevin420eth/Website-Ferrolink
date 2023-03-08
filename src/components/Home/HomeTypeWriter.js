@@ -8,13 +8,13 @@ const HomeTypewriter = () => {
                 onInit={(typewriter) => {
                     typewriter
                         .changeDelay(50)
-                        .typeString("<span class='highlightText'>High Quality</span> Hand Tools since 1941")
+                        .typeString("<span class='highlightText'>High Quality</span><br/>Hand Tools<br/>since 1941")
+                        .pauseFor(3500)
+                        .deleteAll(1)
+                        .typeString("Extremely<br/><span class='highlightText'>Strong</span><br/><span class='highlightText'>Precise</span><br/>and<br/><span class='highlightText'>Dependable</span>")
                         .pauseFor(2500)
                         .deleteAll(1)
-                        .typeString("Extremely <span class='highlightText'>Strong</span><br/><span class='highlightText'>Precise</span><br/>and<br/><span class='highlightText'>Dependable</span>")
-                        .pauseFor(2500)
-                        .deleteAll(1)
-                        .typeString("Built to Last<br/>Crafted with <span class='highlightText'>Experience</span>")
+                        .typeString("Built to<br/><span class='highlightText'>Last</span><br/>Crafted with<br/><span class='highlightText'>Experience</span>")
                         .pauseFor(2500)
                         .deleteAll(1)
                         .typeString("Your Partner for <br/>Every Job<br/>Every Time<br/><br/><span class='highlightText'>Ferrolink Industries Co.</span>")
