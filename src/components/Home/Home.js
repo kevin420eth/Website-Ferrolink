@@ -1,9 +1,20 @@
 import React from 'react'
 import './home.css'
+import video from '../../assets/1.mp4'
+import HomeTypewriter from './HomeTypeWriter'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section className='home__section'>
+      <div className='home__container'>
+        <div className='showcase__container'>
+          <video className='showcase__video' src={video} controls muted autoPlay></video>
+        </div>
+        <div className='home__title'>
+          <HomeTypewriter />
+        </div>
+      </div>
+    </section>
   )
 }
 

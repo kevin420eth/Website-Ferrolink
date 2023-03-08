@@ -1,0 +1,28 @@
+.home__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.showcase__video{
+    width: 700px;
+}
+
+.home__title{
+    width:450px;
+    height: 300px;
+    color:white;
+    font-size: 2.3rem;
+}
+
+.highlightText{
+    color: wheat;
+}
