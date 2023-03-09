@@ -3,8 +3,8 @@ import './about.css'
 
 const About = () => {
   return (
-    <section className='section about__section'>
-      <h1>About</h1>
+    <section id='about' className='section about__section'>
+      <h1 className='about__title'>About</h1>
       <div className='about__container'>
         <p className='about__content'>
           Ferrolink Industries co., Ltd. was established in 1997. In the early stage, the company is

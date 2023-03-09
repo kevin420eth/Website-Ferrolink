@@ -5,7 +5,7 @@ import logo from '../../assets/logo192.png'
 const Header = () => {
   return (
     <div className='header__container'>
-      <a className='header__logo__container' href='https://www.ferrolink.com.tw'>
+      <a className='header__logo__container' href='/'>
         <div className='logo__name'>
           Ferrolink
           <span>Industries Co.</span>
