@@ -35,3 +35,6 @@
   gap: 3rem;
 }
 
+.navbar__link:hover {
+  color: rgb(200, 200, 200);
+}
