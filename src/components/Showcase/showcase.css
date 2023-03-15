@@ -1,0 +1,32 @@
+.showcase__section {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.showcase__container {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 0 10rem;
+  display: flex;
+}
+
+.product__category__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product__category__link {
+}
+
+.product__showcase{
+
+}
+
+.product__showcase__container {
+  border: 2px solid rgb(255, 139, 139);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product__preview{
+    
+}

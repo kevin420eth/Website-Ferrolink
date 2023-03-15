@@ -10,7 +10,7 @@ const Contact = () => {
       <h1 className='contact__title'>Contact</h1>
       <div className='contact__container'>
         <div className='contact__options'>
-          <a href='mailto:webmaster@example.com' className='contact__option'>
+          <a href='mailto:sales@ferrolink.co' className='contact__option'>
             <AiOutlineMail className='contact__option__icon' />
             <p className='contact__option__text'>Email</p>
           </a>
