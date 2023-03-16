@@ -1,11 +1,13 @@
-.showcase__section {
+.product__showcase__section {
   border: 2px solid rgb(255, 255, 255);
+  padding-top: 8rem;
 }
 
-.showcase__container {
-  border: 2px solid rgb(255, 255, 255);
+.product__showcase__container {
   padding: 0 10rem;
   display: flex;
+  gap:5rem;
+  align-items: center;
 }
 
 .product__category__container {
@@ -17,16 +19,24 @@
 .product__category__link {
 }
 
-.product__showcase{
-
+.product__showcase {
 }
 
-.product__showcase__container {
+.product__preview__container {
   border: 2px solid rgb(255, 139, 139);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
-.product__preview{
-    
+.product__preview {
+    border: 2px solid rgb(255, 139, 139);
+}
+
+.product__preview__image{
+    width: 300px;
+}
+
+.product__preview__name{
+    text-align: center;
 }
