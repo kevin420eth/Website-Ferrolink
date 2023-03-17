@@ -1,6 +1,6 @@
 import React from 'react'
 import './showcase.css'
-import ProductData from './Data'
+import ProductData from '../../Data'
 import Header from '../Header/Header'
 import { useParams } from 'react-router'
 

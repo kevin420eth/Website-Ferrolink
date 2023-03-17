@@ -2,7 +2,7 @@ import React from 'react'
 import './singleproduct.css'
 import Header from '../Header/Header'
 import { useParams } from 'react-router'
-import Data from '../Showcase/Data'
+import Data from '../../Data'
 
 const SingleProduct = () => {
     const { productType, productName } = useParams()
@@ -16,7 +16,7 @@ const SingleProduct = () => {
                         return (
                             <div>
                                 <p>{item.name}</p>
-                                <img src={item.image} alt={item.img}/>
+                                <img src={item.image} alt={item.img} />
                             </div>
                         )
                     }
