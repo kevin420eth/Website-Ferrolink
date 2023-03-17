@@ -1,7 +1,8 @@
 import './product.css'
+import React from 'react'
 import Header from '../Header/Header'
 import Showcase from '../Showcase/Showcase'
-import React from 'react'
+
 
 const Product = () => {
     return (
