@@ -6,6 +6,7 @@ import { useParams } from 'react-router'
 
 const Showcase = () => {
     const { productType } = useParams()
+    let count = 0
 
     return (
         <div>
@@ -24,8 +25,20 @@ const Showcase = () => {
                         <div className='product__preview__container'>
                             {ProductData.map((item) => {
                                 if (productType === item.category) {
+                                    count += 1
                                     return (
-                                        <a href={`/product/hammer/${item.name}`} className='product__preview' key={item.id}>
+                                        <a href={`/product/${item.category}/${item.name}`} className='product__preview' key={item.id}>
+                                            <img className='product__preview__image' src={item.image} alt='img' />
+                                            <p className='product__preview__name'>{item.name}</p>
+                                        </a>
+                                    )
+                                }
+                            })}
+
+                            {ProductData.map((item) => {
+                                if (count == 0 && item.category === 'hammer') {
+                                    return (
+                                        <a href={`/product/${item.category}/${item.name}`} className='product__preview' key={item.id}>
                                             <img className='product__preview__image' src={item.image} alt='img' />
                                             <p className='product__preview__name'>{item.name}</p>
                                         </a>

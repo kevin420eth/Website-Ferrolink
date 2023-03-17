@@ -7,6 +7,7 @@ import Product from './components/Product/Product';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Showcase from './components/Showcase/Showcase';
+import SingleProduct from './components/SingleProduct/SingleProduct';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
         <Route path='/product' element={<Product />}/>
         <Route path='/product/:productType' element={<Showcase />}/>
+        <Route path='/product/:productType/:productName' element={<SingleProduct />}/>
       </Routes>
     </div>
   );
