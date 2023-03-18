@@ -1,5 +1,5 @@
-import Image1 from '../../assets/F-28.jpg'
-import Image4 from '../../assets/W-T20.jpg'
+import Image1 from './assets/F-28.jpg'
+import Image4 from './assets/W-T20.jpg'
 
 const Data = [
     {
