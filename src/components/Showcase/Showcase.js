@@ -32,6 +32,8 @@ const Showcase = () => {
                                             <p className='product__preview__name'>{item.name}</p>
                                         </a>
                                     )
+                                }else{
+                                    return ''
                                 }
                             })}
 
@@ -43,6 +45,8 @@ const Showcase = () => {
                                             <p className='product__preview__name'>{item.name}</p>
                                         </a>
                                     )
+                                }else{
+                                    return ''
                                 }
                             })}
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import video from '../../assets/1.mp4'
+import video from '../../assets/materials/1.mp4'
 import HomeTypewriter from './HomeTypeWriter'
 
 const Home = () => {
