@@ -324,13 +324,13 @@ const Data = [
         image: require(`./assets/products/Handle/S-291.jpg`)
     },
     {
-        id:55 ,
+        id: 55,
         name: 'D-210',
         category: 'other',
         image: require(`./assets/products/Other Tool/D-210.jpg`)
     },
     {
-        id:56 ,
+        id: 56,
         name: 'D-310',
         category: 'other',
         image: require(`./assets/products/Other Tool/D-310.jpg`)
