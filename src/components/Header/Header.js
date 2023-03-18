@@ -13,10 +13,10 @@ const Header = () => {
         <img className='logo__img' src={logo} alt='logo__img' />
       </a>
       <nav className='navbar__container'>
-        <a className='navbar__link' href='#top'>Home</a>
+        <a className='navbar__link' href='/#top'>Home</a>
         <a className='navbar__link' href='/product'>Product</a>
-        <a className='navbar__link' href='#about'>About</a>
-        <a className='navbar__link' href='#contact'>Contact</a>
+        <a className='navbar__link' href='/#about'>About</a>
+        <a className='navbar__link' href='/#contact'>Contact</a>
       </nav>
     </div>
   )
