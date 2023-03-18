@@ -341,6 +341,12 @@ const Data = [
         category: 'other',
         image: require(`./assets/products/Other Tool/R-24.jpg`)
     },
+    {
+        id: 58,
+        name: 'W-T20',
+        category: 'axe',
+        image: require(`./assets/products/Axe/W-T20.jpg`)
+    },
 ]
 
 export default Data;
