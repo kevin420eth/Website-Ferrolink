@@ -14,11 +14,11 @@ const Showcase = () => {
             <section className='section product__showcase__section'>
                 <div className='product__showcase__container'>
                     <div className='product__category__container'>
-                        <a href='/' className='product__category__link'>Hammers</a>
-                        <a href='#e' className='product__category__link'>Axes & Hatchets</a>
-                        <a href='#e' className='product__category__link'>Gardening Tools</a>
-                        <a href='#e' className='product__category__link'>Handles</a>
-                        <a href='#e' className='product__category__link'>Other Tools</a>
+                        <a href='/product/hammer' className='product__category__link'>Hammers</a>
+                        <a href='/product/axe' className='product__category__link'>Axes & Hatchets</a>
+                        <a href='/product/gardening' className='product__category__link'>Gardening Tools</a>
+                        <a href='/product/handle' className='product__category__link'>Handles</a>
+                        <a href='/product/other' className='product__category__link'>Other Tools</a>
                     </div>
 
                     <div className='product__preview__section'>
@@ -36,7 +36,7 @@ const Showcase = () => {
                             })}
 
                             {ProductData.map((item) => {
-                                if (count == 0 && item.category === 'hammer') {
+                                if (count === 0 && item.category === 'hammer') {
                                     return (
                                         <a href={`/product/${item.category}/${item.name}`} className='product__preview' key={item.id}>
                                             <img className='product__preview__image' src={item.image} alt='img' />
