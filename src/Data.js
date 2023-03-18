@@ -133,220 +133,220 @@ const Data = [
     },
     {
         id: 23,
+        name: 'W-T20',
+        category: 'axe',
+        image: require(`./assets/products/Axe/W-T20.jpg`)
+    },
+    {
+        id: 24,
         name: 'F-26',
         category: 'axe',
         image: require(`./assets/products/Axe/F-26.jpg`)
     },
     {
-        id: 24,
+        id: 25,
         name: 'F-27',
         category: 'axe',
         image: require(`./assets/products/Axe/F-27.jpg`)
     },
     {
-        id: 25,
+        id: 26,
         name: 'F-31',
         category: 'axe',
         image: require(`./assets/products/Axe/F-31.jpg`)
     },
     {
-        id: 26,
+        id: 27,
         name: 'F-76',
         category: 'axe',
         image: require(`./assets/products/Axe/F-76.jpg`)
     },
     {
-        id: 27,
+        id: 28,
         name: 'S-240',
         category: 'axe',
         image: require(`./assets/products/Axe/S-240.jpg`)
     },
     {
-        id: 28,
+        id: 29,
         name: 'S-247',
         category: 'axe',
         image: require(`./assets/products/Axe/S-247.jpg`)
     },
     {
-        id: 29,
+        id: 30,
         name: 'S-248',
         category: 'axe',
         image: require(`./assets/products/Axe/S-248.jpg`)
     },
     {
-        id: 30,
+        id: 31,
         name: 'S-249F',
         category: 'axe',
         image: require(`./assets/products/Axe/S-249F.jpg`)
     },
     {
-        id: 31,
+        id: 32,
         name: 'CR-6005',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CR-6005.jpg`)
     },
     {
-        id: 32,
+        id: 33,
         name: 'CR-6006',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CR-6006.jpg`)
     },
     {
-        id: 33,
+        id: 34,
         name: 'CR-6007',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CR-6007.jpg`)
     },
     {
-        id: 34,
+        id: 35,
         name: 'CS-01',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-01.jpg`)
     },
     {
-        id: 35,
+        id: 36,
         name: 'CS-02',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-02.jpg`)
     },
     {
-        id: 36,
+        id: 37,
         name: 'CS-03',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-03.jpg`)
     },
     {
-        id: 37,
+        id: 38,
         name: 'CS-04',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-04.jpg`)
     },
     {
-        id: 38,
+        id: 39,
         name: 'CS-05',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-05.jpg`)
     },
     {
-        id: 39,
+        id: 40,
         name: 'CS-06',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-06.jpg`)
     },
     {
-        id: 40,
+        id: 41,
         name: 'CS-07',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-07.jpg`)
     },
     {
-        id: 41,
+        id: 42,
         name: 'CS-08',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-08.jpg`)
     },
     {
-        id: 42,
+        id: 43,
         name: 'CS-09',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-09.jpg`)
     },
     {
-        id: 43,
+        id: 44,
         name: 'CS-29',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CS-29.jpg`)
     },
     {
-        id: 44,
+        id: 45,
         name: 'CSW-24',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CSW-24.jpg`)
     },
     {
-        id: 45,
+        id: 46,
         name: 'CSW-24',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/CSW-26.jpg`)
     },
     {
-        id: 46,
+        id: 47,
         name: 'EL-10F',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/EL-10F.jpg`)
     },
     {
-        id: 47,
+        id: 48,
         name: 'FR04',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/FR04.jpg`)
     },
     {
-        id: 48,
+        id: 49,
         name: 'S-301',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/S-301.jpg`)
     },
     {
-        id: 49,
+        id: 50,
         name: 'S-303',
         category: 'gardening',
         image: require(`./assets/products/Gardening Tool/S-301.jpg`)
     },
     {
-        id: 50,
+        id: 51,
         name: 'S-284',
         category: 'handle',
         image: require(`./assets/products/Handle/S-284.jpg`)
     },
     {
-        id: 51,
+        id: 52,
         name: 'S-285',
         category: 'handle',
         image: require(`./assets/products/Handle/S-285.jpg`)
     },
     {
-        id: 52,
+        id: 53,
         name: 'S-286',
         category: 'handle',
         image: require(`./assets/products/Handle/S-286.jpg`)
     },
     {
-        id: 53,
+        id: 54,
         name: 'S-289',
         category: 'handle',
         image: require(`./assets/products/Handle/S-289.jpg`)
     },
     {
-        id: 54,
+        id: 55,
         name: 'S-291',
         category: 'handle',
         image: require(`./assets/products/Handle/S-291.jpg`)
     },
     {
-        id: 55,
+        id: 56,
         name: 'D-210',
         category: 'other',
         image: require(`./assets/products/Other Tool/D-210.jpg`)
     },
     {
-        id: 56,
+        id: 57,
         name: 'D-310',
         category: 'other',
         image: require(`./assets/products/Other Tool/D-310.jpg`)
     },
     {
-        id: 57,
+        id: 58,
         name: 'R-24',
         category: 'other',
         image: require(`./assets/products/Other Tool/R-24.jpg`)
-    },
-    {
-        id: 58,
-        name: 'W-T20',
-        category: 'axe',
-        image: require(`./assets/products/Axe/W-T20.jpg`)
-    },
+    }
 ]
 
 export default Data;
