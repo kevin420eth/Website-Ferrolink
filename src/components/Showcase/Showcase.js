@@ -3,6 +3,7 @@ import './showcase.css'
 import ProductData from '../../Data'
 import Header from '../Header/Header'
 import { useParams } from 'react-router'
+import ShowcaseSwiper from './ShowcaseSwiper'
 
 const Showcase = () => {
     const { productType } = useParams()
@@ -23,32 +24,7 @@ const Showcase = () => {
 
                     <div className='product__preview__section'>
                         <div className='product__preview__container'>
-                            {ProductData.map((item) => {
-                                if (productType === item.category) {
-                                    count += 1
-                                    return (
-                                        <a href={`/product/${item.category}/${item.name}`} className='product__preview' key={item.id}>
-                                            <img className='product__preview__image' src={item.image} alt='img' />
-                                            <p className='product__preview__name'>{item.name}</p>
-                                        </a>
-                                    )
-                                } else {
-                                    return ''
-                                }
-                            })}
-
-                            {ProductData.map((item) => {
-                                if (count === 0 && item.category === 'hammer') {
-                                    return (
-                                        <a href={`/product/${item.category}/${item.name}`} className='product__preview' key={item.id}>
-                                            <img className='product__preview__image' src={item.image} alt='img' />
-                                            <p className='product__preview__name'>{item.name}</p>
-                                        </a>
-                                    )
-                                } else {
-                                    return ''
-                                }
-                            })}
+                            <ShowcaseSwiper />
                         </div>
                     </div>
                 </div>
