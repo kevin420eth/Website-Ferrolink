@@ -1,0 +1,33 @@
+.single__product__section {
+  padding-top: 10rem;
+  min-height: 100vh;
+}
+
+.single__product__container {
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.single__product__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.single__product__label{
+    font-weight: bold;
+}
+
+.single__product__content{
+    margin-bottom: 1rem;
+}
+
+.single__product__about__content{
+    font-size: 1rem;
+}
+
+/* About content */
+.single__product__info :nth-child(14){
+    font-size: 1rem;
+    margin-bottom: 0;
+}
