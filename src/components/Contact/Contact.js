@@ -25,15 +25,18 @@ const Contact = () => {
         </div>
         <div className='contact__form__section'>
           <p className='form__title'>Inquiry</p>
-          <form className='contact__form' action='' method='post'>
-            <label className='input__label' for='name'>Name</label>
+          <form className='contact__form' action='/' method='post' onSubmit={(event)=>{
+            event.preventDefault()
+            console.log('fuck you')
+          }}>
+            <label className='input__label' htmlFor='name'>Name</label>
             <input className='form__input' id='name' type='text' required></input>
-            <label className='input__label' for='email'>Email</label>
+            <label className='input__label' htmlFor='email'>Email</label>
             <input className='form__input' id='email' type='email' required></input>
-            <label className='input__label' for='message'>Message</label>
+            <label className='input__label' htmlFor='message'>Message</label>
             <textarea className='form__input' id='message' type='text' rows="4" required></textarea>
             <div className='form__submit'>
-              <input type='button' value='Submit' />
+              <button className='submit__botton' type='submit'  name='submit__botton'>Submit</button>
             </div>
           </form>
         </div>

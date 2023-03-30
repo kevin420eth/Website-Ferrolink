@@ -67,3 +67,15 @@ textarea {
 .form__submit {
   width: 100%;
 }
+
+.submit__botton {
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 40px
+}
+
+.submit__botton:hover {
+  background:rgb(255, 255, 255)
+}

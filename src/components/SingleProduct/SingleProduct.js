@@ -36,6 +36,10 @@ const SingleProduct = () => {
                                 </div>
                             </div>
                         )
+                    }else{
+                        return(
+                            <div></div>
+                        )
                     }
                 })}
             </section>
