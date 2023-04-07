@@ -1,10 +1,33 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import './contact.css'
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
 import { RiMessengerLine } from 'react-icons/ri'
+import emailjs from '@emailjs/browser'
 
 
 const Contact = () => {
+  const [clientName, setClientName] =useState('')
+  const [clientEmail, setClientEmail] =useState('')
+  const [clientMessage, setClientMessage] =useState('')
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+
+    e.preventDefault(); // prevents the page from reloading when you hit “Send”
+
+    emailjs.sendForm('service_6soa5u4', 'template_adu9qtl', form.current, 'nKd0EqIv95U-g9IVV')
+      .then((result) => {
+        setClientName('')
+        setClientEmail('')
+        setClientMessage('')
+
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
     <section id='contact' className='section contact__section'>
       <h1 className='contact__title'>Contact</h1>
@@ -25,18 +48,18 @@ const Contact = () => {
         </div>
         <div className='contact__form__section'>
           <p className='form__title'>Inquiry</p>
-          <form className='contact__form' action='/' method='post' onSubmit={(event)=>{
-            event.preventDefault()
-            console.log('fuck you')
-          }}>
+          <form className='contact__form' ref={form} onSubmit={sendEmail}>
             <label className='input__label' htmlFor='name'>Name</label>
-            <input className='form__input' id='name' type='text' required></input>
+            <input className='form__input' id='name' type='text' value={clientName} name='client_name' onChange={(event)=>{setClientName(event.target.value)}} required></input>
+
             <label className='input__label' htmlFor='email'>Email</label>
-            <input className='form__input' id='email' type='email' required></input>
+            <input className='form__input' id='email' type='email' value={clientEmail} name='client_email' onChange={(event)=>{setClientEmail(event.target.value)}} required></input>
+
             <label className='input__label' htmlFor='message'>Message</label>
-            <textarea className='form__input' id='message' type='text' rows="4" required></textarea>
+            <textarea className='form__input' id='message' type='text' rows="4" value={clientMessage} name='client_message' onChange={(event)=>{setClientMessage(event.target.value)}} required></textarea>
+
             <div className='form__submit'>
-              <button className='submit__botton' type='submit'  name='submit__botton'>Submit</button>
+              <button className='submit__botton' type='submit' value={clientMessage} name='submit__botton'>Submit</button>
             </div>
           </form>
         </div>
