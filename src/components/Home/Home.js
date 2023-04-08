@@ -8,7 +8,7 @@ const Home = () => {
     <section className='home__section'>
       <div className='home__container'>
         <div className='showcase__container'>
-          <video className='showcase__video' src={video} controls muted autoPlay></video>
+          <video className='showcase__video' src={video} muted autoPlay loop></video>
         </div>
         <div className='home__title'>
           <HomeTypewriter />
