@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Showcase from './components/Showcase/Showcase';
 import SingleProduct from './components/SingleProduct/SingleProduct';
+import Service from './components/Service/Service';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <main>
               <Home />
               <About />
+              <Service />
               <Contact />
             </main>
             <footer>
@@ -28,8 +30,8 @@ function App() {
           </div>
         } />
 
-        <Route path='/product/:productType' element={<Showcase />}/>
-        <Route path='/product/:productType/:productName' element={<SingleProduct />}/>
+        <Route path='/product/:productType' element={<Showcase />} />
+        <Route path='/product/:productType/:productName' element={<SingleProduct />} />
       </Routes>
     </div>
   );
